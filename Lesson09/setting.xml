@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<!-- root>player*3 -->
+<root>
+    <player></player>
+    <player></player>
+    <player></player>
+</root>
+
+<!-- root>player#$*3 -->
+<root>
+    <player id="1"></player>
+    <player id="2"></player>
+    <player id="3"></player>
+</root>
+
+<!-- root[match="nba" title="koma nba"]>player#$$*4 -->
+<root match="nba" title="koma nba">
+    <player id="01"></player>
+    <player id="02"></player>
+    <player id="03"></player>
+    <player id="04"></player>
+</root>
+
+<!-- name+age+sex+address -->
+<root match="nba" title="koma nba">
+    <player id="01">
+        <name></name>
+        <age></age>
+        <sex></sex>
+        <address></address>
+    </player>
+</root>
+
+<!-- root>player#$*3>name+age+sex+address -->
+<root>
+    <player id="1">
+        <name></name>
+        <age></age>
+        <sex></sex>
+        <address></address>
+    </player>
+    <player id="2">
+        <name></name>
+        <age></age>
+        <sex></sex>
+        <address></address>
+    </player>
+    <player id="3">
+        <name></name>
+        <age></age>
+        <sex></sex>
+        <address></address>
+    </player>
+</root>
