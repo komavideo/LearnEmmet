@@ -1,0 +1,36 @@
+body {
+    /* pore */
+    position: relative;
+
+    /* posa */
+    position: absolute;
+
+    /* d:n */
+    display: none;
+    display: block;
+    display: inline;
+
+    /* ov:h */
+    overflow: hidden;
+    overflow: scroll;
+    overflow: x;
+    
+    /* cur:p */
+    cursor: pointer;
+    cursor: hand;
+    cursor: help;
+
+    /* ta:l/ta:c */
+    text-align: left;
+    text-align: center;
+    text-align: right;
+
+    /* fw:n/fw:b */
+    font-weight: bold;
+    font-weight: normal;
+
+    /* fz/fz16/fz16! */
+    font-size: 10px;
+    font-size: 24px;
+    font-size: 16px !important;
+}
