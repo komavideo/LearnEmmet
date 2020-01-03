@@ -1,0 +1,37 @@
+body {
+    /* m */
+    margin: 10px;
+    margin: 10px;
+
+    /* p */
+    padding: 10px;
+
+    /* m10 */
+    margin: 10px;
+
+    /* m10p */
+    margin: 10%;
+
+    /* m10r */
+    margin: 20rem;
+
+    /* m10-20-10-20 */
+    margin: 10px 20px 30px 40px;
+
+    /* m10p20p */
+    margin: 10% 20%;
+
+    /* mt10 */
+    /* ml10 */
+    /* mb10 */
+    /* mr10 */
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    margin-right: 40px;
+
+    /* m-10 */
+    /* m-10--20 */
+    margin: -10px;
+    margin: -10px -20px;
+}
