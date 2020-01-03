@@ -1,0 +1,16 @@
+body {
+    /* c */
+    color: #0f0;
+
+    /* c#f */
+    color: #eeeeee;
+
+    /* c#f0 */
+    color: #f0f0f0;
+
+    /* color:rgb */
+    color:rgb(#ff0000, #00ff00, #0000ff);
+
+    /* color:rgba */
+    color:rgba(#ff0000, #00ff00, #0000ff, 0.5);
+}
